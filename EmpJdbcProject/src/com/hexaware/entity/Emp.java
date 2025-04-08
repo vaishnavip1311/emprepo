@@ -20,6 +20,10 @@ public class Emp {
 	public double getEmpSal() {
 		return empSal;
 	}
+	@Override
+	public String toString() {
+		return "Emp Id ="+ empId;
+	}
 	
 	
 }
